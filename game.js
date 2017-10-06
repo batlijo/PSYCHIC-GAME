@@ -12,7 +12,11 @@ var letters = ["a","b", "c", "d","e",
 // need to create a way for user input answer...assign another variable
 var letterGuessed = []
 
-
+if (correctGuess){
+	alert("Correct answer!");
+}	else if (wrongGuess){
+	alert("Wrong answer!");
+	}
 
 // create for loop since it nees to run through guesses.
 for (i=0; i<5; i++){
